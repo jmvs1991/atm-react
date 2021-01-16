@@ -1,0 +1,26 @@
+@import "../../../Custom.scss";
+
+// #Header .Header__Opciones {
+//   @extend .col-12;
+//   @extend .col-md-6;
+//   @exte
+//   @extend .bg-gradient-light;
+//   // border-bottom: solid whitesmoke 2px;
+//   // @extend .shadow-sm;
+// }
+
+#Contenido {
+  @extend .mt-4;
+  @extend .mb-4;
+  @extend .pt-4;
+  @extend .pb-4;
+}
+
+#Footer {
+  @extend .bg-gradient-light;
+  @extend .mt-auto;
+  @extend .pb-3;
+  @extend .pt-2;
+  border-top: solid whitesmoke 2px;
+  // clip-path: polygon(100% 0%, 70% 15%, 30% 15%, 0% 0%, 0% 100%, 100% 100%);
+}
